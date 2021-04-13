@@ -1,0 +1,45 @@
+﻿URL Address Rules
+Bethistory.php
+Cabinet:
+Bethistory.php?page_section=&cabinet_number=&game_number=&list_number=0&machine_select=C
+Server:
+Bethistory.php?page_section=&cabinet_number=&game_number=&list_number=0&machine_select=S
+
+Stationlog.php
+Cabinet:
+StationLog.php?page_section=1&limit1=&start_date=&end_date=&game_number=&machine_select=C&cabinet_number=
+Server:
+StationLog.php?page_section=1&limit1=&start_date=&end_date=&game_number=&machine_select=S&cabinet_number=
+
+about.php
+About.php?asset_number=
+
+version.php
+Version.php?sas_engine=&game_software=
+
+license.php
+License.php?feature_name=&feature_id=&license_type=&expire_date=&purchase_date=
+
+
+Change Log
+07/07/2017  history.php, historydoor.php, historyerrors.php, historypower.php, accounting.php removed.
+07/07/2017  Those are merge to stationlog.php
+07/25/2017  License.php correct spell error 'Purcahse Date' to 'Purchase Date'
+07/25/2017  Design Improvement
+07/25/2017  Horse Entry 9 Incorrect EXACTA Information display Fixed.
+07/25/2017  Version Upgrade to V1.02
+08/02/2017  Version Upgrade to V1.03 Station Log has new submenus.
+08/07/2017  Version Upgrade to V1.04 Design Improvement.
+09/21/2017  Now Station log display last 4digits Validation number.
+09/22/2017  Stationlog table CBN TINYINT(4) -> CHAR(12), Userber table CBN TINYINT(4) -> CAHR(12)
+09/27/2017  Version Upgrade to V1.06 paytable_id added in License.php
+10/20/2017  Version UPgrade to V1.07, Correction BetHistory display.
+01/11/2018  version Upgrade to V1.08, AFT-In log added, Station log name change to Event Log.
+02/21/2018  Version Upgrade to V1.09, Field name on Betting History change. 
+		1. Total Betting >> Credits Wagered
+		2. Wagered >> Credits Won 3. Remain Credits >> Credit Meter End
+06/07/2018  Version Upgrade to V1.10, About and License menu deleted. Version to Game_Info.
+06/14/2018  Version Upgrade to V1.10, Add paytable_id on Game_info.
+10/15/2018  Version Upgrade to V1.12, Add signature of BIOS, OS, and Game Software.
+12/03/2018  Version Upgrade to V1.13, Database_Create changined: Add field GAMEID on userbet, Add field GAMEID on dividend.
+12/11/2018  Version Upgrade to V1.14, Database table Server added for DB clear Password.
